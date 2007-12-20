@@ -17,6 +17,7 @@ BuildRequires:	perl-devel
 BuildRequires:	perl
 BuildRequires:	perl-File-Next
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 ack is a grep-like program with optimizations for searching through large trees
