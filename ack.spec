@@ -6,7 +6,7 @@
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Summary:	grep-like text finder for large trees of text
+Summary:	Grep-like text finder for large trees of text
 License:	GPL or Artistic
 Group:		Text tools
 Url:		http://search.cpan.org/dist/%{module}
