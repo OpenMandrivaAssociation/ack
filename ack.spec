@@ -1,7 +1,7 @@
 %define module  ack
 %define name	%module
-%define version 1.28
-%define release %mkrel 2
+%define version 1.76
+%define release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
@@ -10,7 +10,7 @@ Summary:	Grep-like text finder for large trees of text
 License:	GPL or Artistic
 Group:		Text tools
 Url:		http://search.cpan.org/dist/%{module}
-Source:		%{module}-%{version}.tar.bz2
+Source:		http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/%{module}-%{version}.tar.gz
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel
 %endif
