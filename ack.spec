@@ -1,6 +1,6 @@
 %define module  ack
 %define name	%module
-%define version 1.86
+%define version 1.88
 %define release %mkrel 1
 
 Name:		%{name}
