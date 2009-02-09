@@ -15,7 +15,7 @@ Source:		http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/%{module}-%{versio
 BuildRequires:	perl-devel
 %endif
 BuildRequires:	perl
-BuildRequires:	perl-File-Next
+BuildRequires:	perl(File::Next)
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
