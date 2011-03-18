@@ -1,5 +1,5 @@
 %define upstream_name    ack
-%define upstream_version 1.92
+%define upstream_version 1.94
 
 Name:		%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -44,7 +44,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc Changes README
+%doc Changes 
 %{perl_vendorlib}/App/*
 %{_mandir}/*/*
 %{_bindir}/*
