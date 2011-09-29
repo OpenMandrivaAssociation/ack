@@ -1,5 +1,5 @@
 %define upstream_name    ack
-%define upstream_version 1.94
+%define upstream_version 1.96
 
 Name:		%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
