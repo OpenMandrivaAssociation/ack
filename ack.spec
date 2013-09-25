@@ -1,5 +1,5 @@
 %define upstream_name    ack
-%define upstream_version 2.08
+%define upstream_version 2.10
 %bcond_with	 beta
 
 Name:		%{upstream_name}
