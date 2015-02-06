@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{upstream_version}
 %if %{with beta}
 Release: 0.%{with beta}
 %else
-Release: 1
+Release: 2
 %endif
 Summary:	Grep-like text finder for large trees of text
 License:	GPL+ or Artistic
