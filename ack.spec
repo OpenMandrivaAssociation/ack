@@ -9,7 +9,7 @@ Summary:	Grep-like text finder for large trees of text
 License:	GPL+ or Artistic
 Group:		Text tools
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/authors/id/P/PE/PETDANCE/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/authors/id/P/PE/PETDANCE/%{upstream_name}-v%{upstream_version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Next)
 BuildArch:	noarch
@@ -19,7 +19,7 @@ ack is a grep-like program with optimizations for searching through large trees
 of source code.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-v%{upstream_version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
