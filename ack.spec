@@ -1,14 +1,10 @@
 %define upstream_name    ack
-%define upstream_version 2.10
+%define upstream_version 3.3.1
 %bcond_with	 beta
 
 Name:		%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-%if %{with beta}
-Release: 0.%{with beta}
-%else
-Release: 2
-%endif
+Release: 1
 Summary:	Grep-like text finder for large trees of text
 License:	GPL+ or Artistic
 Group:		Text tools
@@ -27,20 +23,14 @@ of source code.
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
-%make
+%make_build
 
-%check
-# tests failing on cluster because they seem to require a real term.
-# ==> skipping tests for now
-#make test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc Changes 
 %{perl_vendorlib}/App/*
 %{_mandir}/*/*
 %{_bindir}/*
-
-
