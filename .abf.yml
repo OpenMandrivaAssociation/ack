@@ -1,5 +1,2 @@
-removed_sources:
-  ack-2.08.tar.gz: 86a277e562381627b85d44b1453404d499995c6e
 sources:
-  ack-2.00b06.tar.gz: 0f672b23db3f4f441199b8be4220ba94d64e6f93
-  ack-2.10.tar.gz: 867dc92471ffe7e4994f56a1fb902b2632bf5656
+  ack-v3.3.1.tar.gz: b5bf8a476935565940b54f93da04b51e1ba15bd4
