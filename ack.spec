@@ -1,15 +1,11 @@
-%define upstream_name    ack
-%define upstream_version 3.5.0
-%bcond_with	 beta
-
-Name:		%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release: 1
+Name:		ack
+Version:	3.7.0
+Release: 	1
 Summary:	Grep-like text finder for large trees of text
 License:	GPL+ or Artistic
 Group:		Text tools
-Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/authors/id/P/PE/PETDANCE/%{upstream_name}-v%{upstream_version}.tar.gz
+Url:		http://search.cpan.org/dist/%{name}
+Source0:	http://www.cpan.org/authors/id/P/PE/PETDANCE/%{name}-v%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Next)
 BuildArch:	noarch
@@ -19,10 +15,10 @@ ack is a grep-like program with optimizations for searching through large trees
 of source code.
 
 %prep
-%setup -q -n %{upstream_name}-v%{upstream_version}
+%autosetup -p1 -n %{name}-v%{version}
+perl Makefile.PL INSTALLDIRS=vendor
 
 %build
-%{__perl} Makefile.PL INSTALLDIRS=vendor
 %make_build
 
 
