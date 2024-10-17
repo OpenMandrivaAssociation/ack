@@ -4,7 +4,7 @@ Release: 	1
 Summary:	Grep-like text finder for large trees of text
 License:	GPL+ or Artistic
 Group:		Text tools
-Url:		http://search.cpan.org/dist/%{name}
+Url:		https://search.cpan.org/dist/%{name}
 Source0:	http://www.cpan.org/authors/id/P/PE/PETDANCE/%{name}-v%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Next)
