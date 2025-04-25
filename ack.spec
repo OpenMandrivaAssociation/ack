@@ -1,5 +1,5 @@
 Name:		ack
-Version:	3.7.0
+Version:	3.8.2
 Release: 	1
 Summary:	Grep-like text finder for large trees of text
 License:	GPL+ or Artistic
