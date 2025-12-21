@@ -6,6 +6,7 @@ License:	GPL+ or Artistic
 Group:		Text tools
 Url:		https://search.cpan.org/dist/%{name}
 Source0:	http://www.cpan.org/authors/id/P/PE/PETDANCE/%{name}-v%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Next)
 BuildArch:	noarch
